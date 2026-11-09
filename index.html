@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      box-sizing: 0;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%) ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       height: 100vh;
+    }
+    div{
+      background-color:white;
+      width: 200px;
+      padding: 20px;
+      border-radius: 3%;
+    }
+    img{
+      width: 200px;
+      height: 200px;
+      border-radius: 5%;
+    }
+    .one{
+      font-size: small;
+      text-align: center ;
+      font-family:arial ;
+      font-weight:900;
+    }
+    .two{
+      font-size: small;
+      text-align: center;
+    }
+
+    @media screen and (max-width:1000px){
+      img{
+      width: 100%;
+      height: 300px;
+      border-radius: 5%;
+    }
+      div{
+        width: 80%;
+      }
+    .one{
+      font-size: large;
+      text-align: center ;
+      font-family:arial ;
+      font-weight:900;
+    }
+       .two{
+      font-size: medium;
+      text-align: center;
+    }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="images/image-qr-code.png" alt="">
+    <h1 class="one">improve your front-end skills by building project</h1>
+    <br>
+    <p class="two">scan QR code to visit frontend mentor and take your coping skills to the next level</p>
+  </div>
+</body>
+</html>
